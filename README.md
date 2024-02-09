@@ -4,6 +4,7 @@ Dieses Projekt verwendet Latent Dirichlet Allocation (LDA), Latent Semantic Anal
 
 ## Dateien:
 * **nlp_themenextraktion.ipynb**: Jupyter Notebook mit dem Code für die Textanalyse und Themenextraktion
+* **nlp_themenextraktion_P2.ipynb**: Jupyter Notebook mit dem Code für die Textanalyse und Themenextraktion ohne Word Embeddings
 * **requirements.txt**: TXT-Datei mit den erforderlichen Abhängigkeiten
 * **meldungen.json**: JSON-Datei mit den Textdaten für die Themenextraktion
 
@@ -15,7 +16,7 @@ Dieses Projekt verwendet Latent Dirichlet Allocation (LDA), Latent Semantic Anal
 4. Führe die Zellen im Notebook nacheinander aus, um die Themenextraktion mit LDA, LSA (BoW und TF-IDF), und Word2Vec durchzuführen.
 5. Analysiere die Ergebnisse und extrahiere dominante Themen aus der bereitgestellten Textsammlung (**meldungen.json**).
 
-## Inhalt:
+## Inhalt von **nlp_themenextraktion.ipynb**:
 1. Datenvorbereitung: Lade die Textdaten und bereite sie vor.
 2. LDA-Modell: Trainiere ein LDA-Modell mit BoW und TF-IDF.
 3. LSA-Modell: Trainiere ein LSA-Modell mit BoW und TF-IDF.
