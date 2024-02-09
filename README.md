@@ -3,7 +3,7 @@
 Dieses Projekt verwendet Latent Dirichlet Allocation (LDA), Latent Semantic Analysis (LSA) mit Bag-of-Words (BoW) und Term Frequency-Inverse Document Frequency (TF-IDF) sowie Word2Vec zur Extraktion von Themen aus einer Textsammlung.  
 
 ## Dateien:
-* **themenextraktion.ipynb**: Jupyter Notebook mit dem Code für die Textanalyse und Themenextraktion
+* **nlp_themenextraktion.ipynb**: Jupyter Notebook mit dem Code für die Textanalyse und Themenextraktion
 * **requirements.txt**: TXT-Datei mit den erforderlichen Abhängigkeiten
 * **meldungen.json**: JSON-Datei mit den Textdaten für die Themenextraktion
 
@@ -11,7 +11,7 @@ Dieses Projekt verwendet Latent Dirichlet Allocation (LDA), Latent Semantic Anal
 1. Klone das Repository auf deinen lokalen Rechner. `git clone https://github.com/laurafranz/NLP-Techniken-in-Python-`
 2. Installiere die Abhängigkeiten.
    `pip install -r requirements.txt`
-3. Öffne das Jupyter Notebook **themenextraktion.ipynb**.
+3. Öffne das Jupyter Notebook **nlp_themenextraktion.ipynb**.
 4. Führe die Zellen im Notebook nacheinander aus, um die Themenextraktion mit LDA, LSA (BoW und TF-IDF), und Word2Vec durchzuführen.
 5. Analysiere die Ergebnisse und extrahiere dominante Themen aus der bereitgestellten Textsammlung (**meldungen.json**).
 
